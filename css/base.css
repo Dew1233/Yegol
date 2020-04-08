@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.date{
+  height: 80px;
+  display: flex;
+}
+.date li{
+  list-style: none;
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* font-weight: 600; */
+  color: #000000;
+}
+.taskBox{
+  display: flex;
+  list-style-type: none;
+  /* 为了自适应 */
+  height: -webkit-fill-available;
+}
+.taskBox li{
+  list-style: none;
+  flex: 1;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+  color: #6CBAFF;
+}
+.task{
+  list-style-type: none;
+  width: 92%;
+  height: auto;
+  border-top: 5px solid #E8E8E8;
+  margin: 0 auto;
+}
+.taskBoxli{
+  list-style: none;
+  display: block;
+  border-left: 2px solid #1890FF;
+  border-top: 1px solid #acdfff;
+  border-bottom: 1px solid #acdfff;
+  border-right: 1px solid #acdfff!important;
+  background-color: #E6F7FF;
+  color: #2C9AFF;
+  margin: 5px 0;
+  font-size: 13px;
+  width: calc(100% - 3px);
+  height: 20px;
+}
+.taskBoxli span:first-child{
+  float: left;
+  margin-left: 8%;
+}
+.taskBoxli span:last-child{
+  float: right;
+  margin-right: 5%;
+}
+.taskitem{
+  
+  border-right: 1px dashed #686868;
+}
+.active{
+  border-top:5px solid #33C0CD;
+}
+.itemactive{
+ 
+  border-right: 1px dashed  #33C0CD;
+}
